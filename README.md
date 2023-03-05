@@ -19,3 +19,16 @@ or
 
 ### First Command 
 ``` ansible all -m ping ```
+
+Output:
+```
+
+localhost | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+
+```
